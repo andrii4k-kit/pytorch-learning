@@ -9,8 +9,9 @@ I applied the learned concepts to build a Quality Control pipeline for magnetic 
 * **Features:** Hybrid approach using Object Detection + SAM2 for Segmentation.
 * **Data Engineering:** Custom pipeline to convert pixel masks to bounding boxes (see `07_data_preparation.ipynb`).
 * **Hardware:** Luxonis OAK-D Camera & Intel Arc GPU Acceleration.
+<img width="1229" height="1198" alt="output" src="https://github.com/user-attachments/assets/2d447f47-81d8-40bc-b118-7751f3f80da2" />
 
-*GIF*
+
 
 ---
 
@@ -66,7 +67,7 @@ model.train(
     hsv_h=0.03, hsv_s=0.7, hsv_v=0.6  # Heavy color/brightness jitter to handle factory lighting
 )
 ```
-
+<img width="2400" height="1200" alt="many_graphs" src="https://github.com/user-attachments/assets/a151b45e-e544-4f8c-8c74-95d81e6bce00" />
 ## 🛠️ Tech Stack
 * **Language:** Python 3.10+
 * **Core Libs:** PyTorch, Torchvision, Ultralytics (YOLO/RT-DETR), OpenVINO
@@ -75,4 +76,3 @@ model.train(
 ## 🚧 Status
 * [x] Fundamentals & Theory
 * [x] Software Prototype (Laptop Inference)
-* [ ] Edge Deployment (Raspberry Pi 5 + Hailo-8)
