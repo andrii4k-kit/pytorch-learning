@@ -8,10 +8,7 @@ I applied the learned concepts to build a Quality Control pipeline for magnetic 
 * **Model:** RT-DETR (Real-Time Detection Transformer)
 * **Features:** Hybrid approach using Object Detection + SAM2 for Segmentation.
 * **Data Engineering:** Custom pipeline to convert pixel masks to bounding boxes (see `07_data_preparation.ipynb`).
-* **Hardware:** Luxonis OAK-D Camera & Intel Arc GPU Acceleration.
 <img width="1229" height="1198" alt="output" src="https://github.com/user-attachments/assets/2d447f47-81d8-40bc-b118-7751f3f80da2" />
-
-
 
 ---
 
